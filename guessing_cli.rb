@@ -5,7 +5,7 @@ def run_guessing_game
   random_number = Random.rand(1..6)
 
 
-  until user_input.to_i == random_number.to_ do
+  until user_input.to_i == random_number. do
     if user_input == "exit"
       puts "Goodbye!"
       return
